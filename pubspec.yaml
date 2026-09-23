@@ -1,17 +1,26 @@
-name: example
-description: Demonstrates how to use secure_token_manager with single-flight refresh protection and state observation.
-publish_to: 'none'
-version: 1.0.0+1
+name: secure_token_manager
+description: A production-grade, platform-aware secure authentication token lifecycle manager for Flutter with single-flight concurrent refresh protection.
+version: 0.1.0
+homepage: https://github.com/Amrit-2002/secure_token_manager
+repository: https://github.com/Amrit-2002/secure_token_manager
+issue_tracker: https://github.com/Amrit-2002/secure_token_manager/issues
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
   flutter: '>=3.19.0'
 
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  windows:
+
 dependencies:
   flutter:
     sdk: flutter
-  secure_token_manager:
-    path: ../
+  flutter_secure_storage: '>=9.2.2 <12.0.0'
+  meta: ^1.11.0
 
 dev_dependencies:
   flutter_lints: ^4.0.0
