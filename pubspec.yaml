@@ -4,6 +4,12 @@ version: 0.1.0
 homepage: https://github.com/Amrit-2002/secure_token_manager
 repository: https://github.com/Amrit-2002/secure_token_manager
 issue_tracker: https://github.com/Amrit-2002/secure_token_manager/issues
+topics:
+  - authentication
+  - security
+  - token-management
+  - oauth2
+  - storage
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
